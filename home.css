@@ -1,0 +1,62 @@
+// apply css for home page
+
+body{
+    font-family: "Comfortaa", sans-serif
+}
+
+
+.c1{
+    position:relative;
+    border: 1px black solid;
+    height: 100vh;
+    overflow:hidden;
+    display: flex;
+    align-items: center;
+}
+.c2{
+    height: 750px;
+    width: 750px;
+    background: #66082b;
+    border-radius: 50%;
+    position:absolute;
+    right: -375px;
+    top: -10px;
+    z-index: 1;
+}
+.c3{
+    display:flex;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 2;
+    width:100%;
+    top:10px;
+    padding: 0px 25px;
+    font-weight: 700;
+}
+#click-on-me{
+    background-color:white;
+    color:#66082b;
+    font-size: small;
+    font-weight: 600;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#Name{
+    font-size: 150px;
+    color:#66082b;
+}
+.form-floating{
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);    
+    border-radius: 8px;
+}
+#login-button{
+    color: white;
+    background: #66082b;
+    padding: 10px 20px; 
+    border-radius: 8px;
+}
+
+.main-content{
+    margin-left: 25px;
+}
+
